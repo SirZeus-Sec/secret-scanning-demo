@@ -29,6 +29,6 @@ jobs:
       - name: Send Telegram Notification
         if: failure()  # Only send a message if the secret scan fails
         run: |
-          curl -X POST "https://api.telegram.org/bot7357276704:AAFlF2d3tq9qj_C9hn4vfSJ5RDJEB9Z8rzk/sendMessage" \
+          curl -X POST "https://api.telegram.org/bot7357wefwfwfwf276704:AAFlF2d3tq9qj_C9hn4vfSJ5RDJEB9Z8rzk/sendMessage" \
           -d "chat_id=-1002413586935" \
           -d "text=Secret detected in the repository. Please review the changes."
